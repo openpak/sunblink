@@ -89,5 +89,5 @@ without decrypting anything.
   differently; only the Switch build decides this repository.
 - Inference from another Sunblink title. Useful as a lead, never as a
   confirmed fact for this title.
-- Anything read out of a Reference tree. If a step feels blocked without one,
+- Anything read out of a non-free implementation's source. If a step feels blocked without one,
   it needs a capture instead.
