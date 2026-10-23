@@ -38,20 +38,20 @@ that decide everything.
    (Sunblink relay/datacentre vs the host console). That decides relay vs
    rendezvous-only vs full session server.
 
-Until then: no port block claimed in [`ports.md`](../../docs/ports.md); the
+Until then: no port block claimed in [`ports.md`](https://docs.openpak.org/contributors/ports/); the
 third-party range 22600–22699 has room reserved (next free block 22660–22669),
 and taking ten ports for a service that does not exist would be a lie in a
 shared document. No `go.mod` either; it comes back with the first real package.
 
 ## Ground rules
 
-- Clean room. Read [`docs/clean-room-policy.md`](../../docs/clean-room-policy.md)
+- Clean room. Read [clean-room policy](https://docs.openpak.org/contributors/clean-room/)
   before writing a line. Public protocol documentation, our own captures and
   observations, and compatibly licensed code are the only inputs.
 - AGPL-3.0-only, English only, Go 1.27 when there is Go, no secrets in the
   repository.
 - Raw captures, tokens, and account data stay outside every repository, in
-  `scratch/` per [`docs/playbooks/conventions.md`](../../docs/playbooks/conventions.md).
+  `scratch/` per [conventions](https://docs.openpak.org/contributors/conventions/).
 
 This project is not affiliated with or endorsed by Nintendo, Sunblink, or
 Sanrio. It contains no game code, assets, SDK material, binaries,

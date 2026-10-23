@@ -54,7 +54,7 @@ Unity Relay? custom?), NAT traversal. No dump strings or captures exist yet.
 
 The adapter must consume `openpak/connectivity` (internal HTTP on 20150,
 authenticated per-backend token namespace) rather than inventing its own NAT
-layer, per `docs/shared-connectivity-plan.md`:
+layer, per the shared connectivity plan (internal research notes):
 
 - Register each player independently with its own generation, even when host
   and guest share a public IP (household / CGNAT). Never key identity by IP.
