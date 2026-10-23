@@ -46,8 +46,8 @@ what the adapter must answer.
    DNS log).
 
 **Kill condition:** if the title resolves only Nintendo NEX/NPLN hosts, the
-premise of this repository is wrong — it belongs in `servers/switch-nex` or
-`servers/npln`, and this repo is deleted.
+premise of this repository is wrong — it belongs in `platforms/switch/games/switch-nex` or
+`platforms/switch/games/npln`, and this repo is deleted.
 
 ## Step 2 — Does the console pin a certificate?
 

@@ -39,10 +39,10 @@ Unity Relay? custom?), NAT traversal. No dump strings or captures exist yet.
 
 ## 4. Why existing adapters do not cover it
 
-- `servers/switch-nex`, `servers/npln`: Nintendo-server titles. No evidence
+- `platforms/switch/games/switch-nex`, `platforms/switch/games/npln`: Nintendo-server titles. No evidence
   this title uses NEX, NPLN, Pia, or Eagle.
 - `servers/photon`, `servers/playfab`, `servers/eos`, `servers/demonware`,
-  `servers/klei`, `servers/t17`, `servers/battlenet`: each answers a named
+  `platforms/switch/games/klei`, `servers/t17`, `platforms/switch/games/battlenet`: each answers a named
   provider host with observed identifiers (AppId, tenant, etc.). No such
   identifier has been observed for this title.
 - Conclusion: new adapter, scoped to whatever host the boot capture names.
@@ -52,7 +52,7 @@ Unity Relay? custom?), NAT traversal. No dump strings or captures exist yet.
 
 ## 6. Connectivity service (mandatory)
 
-The adapter must consume `servers/connectivity` (internal HTTP on 20150,
+The adapter must consume `openpak/connectivity` (internal HTTP on 20150,
 authenticated per-backend token namespace) rather than inventing its own NAT
 layer, per `docs/shared-connectivity-plan.md`:
 
