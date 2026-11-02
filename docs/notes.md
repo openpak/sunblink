@@ -7,12 +7,11 @@ game reaches when a console is redirected to OpenPak. The first and only known
 title is **Hello Kitty Island Adventure** (Sunblink / Sanrio, Switch
 30 January 2025, Unity).
 
-## Status
+## Scope
 
-**Status: documentation only, and deliberately so.** There is no code here and
-none is planned until the captures in
+Documentation only: there is no code until the captures in
 [`evidence-needed.md`](evidence-needed.md) show what the Switch build
-actually dials. This is not a scaffold waiting to be filled in.
+actually dials.
 
 ## Why a new adapter
 
