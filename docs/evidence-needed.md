@@ -19,10 +19,10 @@ back as text.
 
 ## Tooling that already exists
 
-- `prds/switch-catalogue-prd.md` §Facts from our dumps: `exefs.sh`,
+- The Switch catalogue tooling (private PRDs): `exefs.sh`,
   `analyze.py`, `gsid.py`, `keys.py`, `xref.py` for middleware strings, plus
   `romfs.sh`, `stack.py`, `meta.py` for Unity `global-metadata.dat`.
-- Emulator DNS redirect log: boot the title in Ryujinx/Eden with DNS pointed
+- Emulator DNS redirect log: boot the title in Harbor with DNS pointed
   at OpenPak and read which hostnames it asks for. That log is the source of
   truth wherever public lists are silent.
 - Online-compatibility playbook: `docs` playbooks volume, §0 for launch
